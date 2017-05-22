@@ -101,7 +101,7 @@ namespace LoveReminder.Core.Repository
                     {
                         CurrentQuote = new LoveQuote()
                         {
-                            QuoteText = "#1 Husband",
+                            QuoteText = "#1 Husband!",
                             QuoteAuthor = "Jacob Barnes",
                             QuoteID = 2,
                             LoveReminderGroups = new List<LoveReminderGroup>()
