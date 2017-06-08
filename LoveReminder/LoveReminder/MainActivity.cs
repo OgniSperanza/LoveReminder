@@ -11,10 +11,11 @@ namespace LoveReminder
         {
             base.OnCreate(bundle);
 
-            // Set our view from the "main" layout resource
-            // SetContentView (Resource.Layout.Main);
-
-
+            SetContentView (Resource.Layout.Main);
+            TextView textView = FindViewById < TextView>(Resource.Id.LoveQuoteTextView);
+            Button button = FindViewById<Button>(Resource.Id.ReminderButton);
+            button.Click +=
+                delegate { textView.Text = "It Works!"; };
         }
     }
 }
