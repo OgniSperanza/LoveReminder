@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:id="@+id/mainLinearLayout">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="282.0dp"
+        android:id="@+id/LoveReminderImageView" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90.5dp"
+        android:id="@+id/LoveQuoteTextView"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginLeft="0.0dp"
+        android:gravity="center_horizontal" />
+    <Button
+        android:text="Remind Me!"
+        android:layout_width="match_parent"
+        android:layout_height="80.0dp"
+        android:id="@+id/ReminderButton"
+        android:layout_marginBottom="7.5dp"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginRight="0.0dp" />
+</LinearLayout>

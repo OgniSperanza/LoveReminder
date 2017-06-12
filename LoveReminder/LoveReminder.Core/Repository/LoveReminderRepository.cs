@@ -1,11 +1,11 @@
-﻿using LoveReminder.Core.Models;
+﻿using Main.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LoveReminder.Core.Repository
+namespace Main.Core.Repository
 {
     public class LoveReminderRepository
     {
